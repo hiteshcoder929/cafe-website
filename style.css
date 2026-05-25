@@ -53,7 +53,7 @@ body {
     width: var(--w-full);
     height: var(--h-screen-80);
     background-size: cover;
-    background-image: url(image/back.jpg);
+    background-image: url(image/back.webp);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -200,11 +200,11 @@ body {
 }
 
 .image-c1 {
-    background-image: url(image/interiar.jpg)
+    background-image: url(image/interiar.webp);
 }
 
 .image-c2 {
-    background-image: url(image/interiar2.jpg)
+    background-image: url(image/interiar2.webp);
 }
 
 .txt-c1,
@@ -298,7 +298,7 @@ body {
 
     .hero{
         height: 50vh;
-        background-image:url(image/back-phone.jpg);
+        background-image:url(image/back-phone.webp);
         border-radius: 0px 0px 10% 10%;
         justify-content: center;
         gap:3rem;

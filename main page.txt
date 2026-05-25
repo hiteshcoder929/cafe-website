@@ -14,3 +14,32 @@ others
 f2f4f3
 a9927d
 5e503f
+
+:root {
+       /* colors */
+    --p-color: #9c6644;
+    --s-color: #7f5539;
+    --l-color: #ede0d4;
+    --m-color: #e6ccb2;
+    --d-color: #b08968;
+
+    --color-1: #a9927d;
+    --color-2: #f2f4f3;
+    --color-3: #22333b;
+    --color-4: #5e503f;
+    --color-5: #0a0908;
+
+    --transparent: rgba(0, 0, 0, 0.5);
+
+        /* WIDTH */
+    --w-full: 100%;
+    --w-half: 50%;
+    --w-quarter: 25%;
+
+    /* HEIGHT */
+    --h-full: 100%;
+    --h-screen-80: 80vh;
+    --h-card: 20rem;
+    --h-btn-area: 8rem;
+    --h-footer: 5rem;
+}
