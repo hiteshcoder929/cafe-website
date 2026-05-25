@@ -3,63 +3,268 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>BREW CAFE</title>
 </head>
 
 <body>
-    <!-- making nav bar section -->
+    <!-- nav bar -->
+    <nav>
+        <div class="logo">
+            <image src="image/logo.webp" alt="logo" class="logo-img"></image>
+        </div>
+        <div class="nav-comp">
+            <div class="comp home">home</div>
+            <div class="comp menu">menu</div>
+            <div class="comp deliver">order</div>
+            <div class="comp about">about</div>
+        </div>
+    </nav>
+
+    <!-- hero -->
     <main id="main-div">
         <div class="hero">
-            <div class="nav">
-                <div class="logo">
-                    <image src="image/logo.webp" alt="logo" class="logo-img"></image>
-                </div>
-                <div class="nav-comp">
-                    <div class="comp" class="home">home</div>
-                    <div class="comp" class="menu">menu</div>
-                    <div class="comp" class="deliver">order</div>
-                    <div class="comp" class="about">about</div>
-                </div>
-            </div>
             <div class="h1-txt">
-                <h2>Fresh Coffee Everyday<br>
-                    Best cafe in your city</h2>
+                <h2>Freshly Brewed Coffee, Every Day<br>
+                    Experience comfort in every cup</h2>
             </div>
         </div>
     </main>
 
     <!-- making main section -->
     <div class="main">
+        <!-- button -->
         <div class="hero-button">
-            <button class="btn-1">view menu</button>
+            <button class="btn-1"> Explore Our Menu</button>
             <button class="btn-2">order now</button>
         </div>
+
+        <!-- section 1 -->
+        <h1 class="card-title">why visit us</h1>
         <div class="card-container">
             <div class="card-1">
                 <div class="image-c2"></div>
                 <div class="txt-c1">
-                    “Where coffee meets comfort.”</br>
-                    “Brewed for moments that matter.”</br>
-                    “Sip. Relax. Repeat.”</br>
-                    “Your perfect coffee corner.”</br>
-                    “Good vibes. Great coffee.”</br>
+                    Where coffee meets comfort.</br>
+                    Sip. Relax. Repeat.
                 </div>
             </div>
             <div class="card-2">
                 <div class="image-c1"></div>
                 <div class="txt-c2">
-                    “Every cup tells a story.”</br>
-                    “Made with love & a little caffeine.”</br>
-                    “Coffee first, everything later.”</br>
-                    “Stay cozy, stay caffeinated.”</br>
-                    “Life begins after coffee.”<br>
+                    Every cup tells a story.</br>
+                    Made with love & a little caffeine.
                 </div>
             </div>
         </div>
+
+        <!-- section-2 -->
+        <!-- title -->
+        <h1 class="menu-title">Our Menu</h1>
+        <!-- start menu -->
+        <div class="menu-section">
+            <div class="menu-items">
+
+                <!-- coffee -->
+                <h2>Coffee</h2>
+                <div class="coffee p-heading">
+                    <!-- writeing something for every coffee for each item -->
+                    <div class="item">
+                        <h3>Espresso</h3>
+                        <div class="espresso items-img">
+                            <img src="image/coffee/Espresso.webp" alt="espresso" class="espresso items-img">
+                            <p class="img-txt">A rich and bold shot of pure coffee,<br> perfect for a quick energy
+                                boost.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3>Cappuccino</h3>
+                        <div class="cappuccino items-img">
+                            <img src="image/coffee/Cappuccino.webp" alt="cappuccino" class="cappuccino items-img">
+                            <p class="img-txt">A smooth blend of espresso, steamed milk,<br> and creamy foam.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3>Latte</h3>
+                        <div class="latte items-img">
+                            <img src="image/coffee/Latte.webp" alt="latte" class="latte items-img">
+                            <p class="img-txt">A light and milky coffee with a smooth,<br> comforting taste.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3>Americano</h3>
+                        <div class="americano items-img">
+                            <img src="image/coffee/Americano.webp" alt="americano" class="americano items-img">
+                            <p class="img-txt">A classic black coffee with a strong<br> yet smooth flavor.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3>Mocha</h3>
+                        <div class="mocha items-img">
+                            <img src="image/coffee/Mocha.webp" alt="mocha" class="mocha items-img">
+                            <p class="img-txt">A delicious mix of coffee and chocolate,<br> topped with creamy goodness.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- pastries -->
+                <h2>Pastries</h2>
+                <div class="pastries p-heading">
+                    <div class="item">
+                        <h3>Croissant</h3>
+                        <div class="croissant items-img">
+                            <img src="image/pastries/Croissant.webp" alt="croissant" class="croissant items-img">
+                            <p class="img-txt">A buttery, flaky pastry baked fresh for<br> a perfect morning treat.</p>
+                        </div>
+                        </image>
+                    </div>
+                    <div class="item">
+                        <h3>Muffin</h3>
+                        <div class="muffin items-img">
+                            <img src="image/pastries/Muffin.webp" alt="muffin" class="muffin items-img">
+                            <p class="img-txt">Soft and moist with rich flavors,<br> perfect with your coffee.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3>Bagel</h3>
+                        <div class="bagel items-img">
+                            <img src="image/pastries/Bagel.webp" alt="bagel" class="bagel items-img">
+                            <p class="img-txt">A toasted classic, crispy outside<br> and soft inside.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3>Scone</h3>
+                        <div class="scone items-img">
+                            <img src="image/pastries/Scone.webp" alt="scone" class="scone items-img">
+                            <p class="img-txt">Light and crumbly, best enjoyed<br> with tea or coffee.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3>Cookie</h3>
+                        <div class="cookie items-img">
+                            <img src="image/pastries/Cookie.webp" alt="cookie" class="cookie items-img">
+                            <p class="img-txt">Freshly baked and loaded with <br>sweetness in every bite.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- shakes -->
+                <h2>Shakes</h2>
+                <div class="shakes p-heading">
+                    <div class="item">
+                        <h3>Chocolate Shake</h3>
+                        <div class="chocolate-shake items-img">
+                            <img src="image/shakes/Chocolate-Shake.webp" alt="chocolate shake"
+                                class="chocolate-shake items-img">
+                            <p class="img-txt">Rich chocolate blended with<br> creamy ice cream.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3>Vanilla Shake</h3>
+                        <div class="vanilla-shake items-img">
+                            <img src="image/shakes/Vanilla-Shake.webp" alt="vanilla shake"
+                                class="vanilla-shake items-img">
+                            <p class="img-txt">Classic vanilla with a smooth,<br> creamy finish.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3>Strawberry Shake</h3>
+                        <div class="strawberry-shake items-img">
+                            <img src="image/shakes/strawberry-shake.webp" alt="strawberry shake"
+                                class="strawberry-shake items-img">
+                            <p class="img-txt">Fresh strawberries blended<br> into a sweet treat.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3>Banana Shake</h3>
+                        <div class="banana-shake items-img">
+                            <img src="image/shakes/Banana-Shake.webp" alt="banana shake" class="banana-shake items-img">
+                            <p class="img-txt">Creamy banana with a touch<br> of honey.</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h3>Caramel Shake</h3>
+                        <div class="caramel-shake items-img">
+                            <img src="image/shakes/Caramel-Shake.webp" alt="caramel shake"
+                                class="caramel-shake items-img">
+                            <p class="img-txt">Sweet caramel swirled into<br> a decadent shake.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- special items -->
+                <div class="special-item-row p-heading">
+                    <h2>Special Items</h2>
+                    <div class="special-items p-heading">
+                        <div class="item">
+                            <h3>Hazelnut Latte</h3>
+                            <div class="hazelnut-latte items-img">
+                                <img src="image/special-items/Hazelnut-Latte.webp" alt="hazelnut latte"
+                                    class="hazelnut-latte items-img">
+                                <p class="img-txt">A nutty twist on your favorite<br> latte.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h3>Cinnamon Roll</h3>
+                            <div class="cinnamon-roll items-img">
+                                <img src="image/special-items/Cinnamon-Roll.webp" alt="cinnamon roll"
+                                    class="cinnamon-roll items-img">
+                                <p class="img-txt">Warm, gooey and topped with icing<br> for a perfect treat.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h3>Nitro Cold Brew</h3>
+                            <div class="nitro-cold-brew items-img">
+                                <img src="image/special-items/Nitro-Cold-Brew.webp" alt="nitro cold brew"
+                                    class="nitro-cold-brew items-img">
+                                <p class="img-txt">Smooth and creamy coffee<br> infused with nitrogen.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h3>Berry Smoothie</h3>
+                            <div class="berry-smoothie items-img">
+                                <img src="image/special-items/Berry-Smoothie.webp" alt="berry smoothie"
+                                    class="berry-smoothie items-img">
+                                <p class="img-txt">A refreshing blend of berries<br> and yogurt.</p>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h3>Triple Chocolate Muffin</h3>
+                            <div class="triple-chocolate-muffin items-img">
+                                <img src="image/special-items/Triple-Chocolate-Muffin.webp"
+                                    alt="triple chocolate muffin" class="triple-chocolate-muffin items-img">
+                                <p class="img-txt">Decadent chocolate muffin<br> with extra chocolate chips.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- section 3 -->
+        <!-- make location for cafe -->
+        <div class="location">
+            <h1>Visit Us</h1>
+            <p>123 Coffee Street, Brew City</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1775838.5850898998!2d75.91037673965745!3d29.62011430087768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce212bd155555%3A0xf4d375294335861d!2sBrew%20Cafe!5e0!3m2!1sen!2sin!4v1779702510470!5m2!1sen!2sin"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
     </div>
+
+    <h2 class="visit-cafe">
+        Visit Our Cafe Today
+        Experience the perfect blend of taste & comfort
+    </h2>
 
     <!-- making footer section -->
     <footer class="footer-2">
@@ -68,6 +273,10 @@
         <div class="contact">
             <h2>Contact Us:9518827898</h2>
             <p>Email: mynewcafe898@brewcafe.com</p>
+            <p>Address: 123 Coffee Street, Brew City</p>
+            <h2>Opening Hours:</h2>
+            <p>Monday - Friday: 7:00 AM - 8:00 PM</p>
+            <p>Saturday - Sunday: 8:00 AM - 6:00 PM</p>
         </div>
         <!-- adding about section -->
         <div class="about-section">
