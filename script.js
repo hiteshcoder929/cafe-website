@@ -6,6 +6,7 @@ hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active', open);
     hamburger.setAttribute('aria-expanded', open);
 });
+
 // Close menu on link click (mobile)
 document.querySelectorAll('.nav-comp .comp').forEach(link => {
     link.addEventListener('click', () => {
@@ -14,7 +15,23 @@ document.querySelectorAll('.nav-comp .comp').forEach(link => {
         hamburger.setAttribute('aria-expanded', false);
     });
 });
+
 // Sticky navbar shadow
 window.addEventListener('scroll', () => {
     document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 40);
+});
+
+document.addEventListener("click", (e) => {
+    if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
+        navMenu.classList.remove("active");
+        hamburger.classList.remove("open");
+    }
+});
+
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute("href"))
+            .scrollIntoView({ behavior: "smooth" });
+    });
 });

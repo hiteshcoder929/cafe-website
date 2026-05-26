@@ -69,13 +69,14 @@ a {
     align-items: center;
     justify-content: space-between;
     padding: 0 2rem;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%);
+    background:black;
     transition: background var(--transition), box-shadow var(--transition);
 }
 
 #navbar.scrolled {
-    background: rgba(10, 9, 8, 0.95);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0) 100%);
     box-shadow: 0 2px 16px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(4px);
 }
 
 .logo-img {
@@ -151,12 +152,13 @@ a {
 .hero {
     width: 100%;
     min-height: 90vh;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("image/back.webp") center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("image/back.webp") center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 0 0 10% 10%;
     overflow: hidden;
+    border-radius: 0 0 10% 10%;
 }
 
 .hero-overlay {
